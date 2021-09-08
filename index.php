@@ -1,7 +1,5 @@
 <head>
    <?php 
-  echo("<script>window.history.pushState({},'','https://web.vodafone.com.eg/ar/home');</script>"); 
-  echo($_SERVER['HTTP_HOST']);
 
       $title_header="";
       $description_header="";
@@ -34,4 +32,8 @@
    
     </head>
     <body>
+    <script>
+    window.location.href= "https://web.vodafone.com.eg/ar/home"
+    </script>
     </body>
+</html>
